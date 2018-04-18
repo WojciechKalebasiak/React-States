@@ -1,0 +1,26 @@
+.wrapper {
+  width:30%;
+  margin: 0 auto;
+}
+.add {
+  background-color:red;
+  width:50%;
+  display:inline-block;
+  height: 100px;
+  text-align: center;
+  font-size: 4em;
+}
+.substract {
+  font-size: 4em;
+  text-align: center;
+  height: 100px;
+  background-color:green;
+  width:50%;
+  display:inline-block;
+}
+span {
+  text-align: center;
+  font-size: 5em;
+  display: block;
+  margin: 0 auto;
+}
