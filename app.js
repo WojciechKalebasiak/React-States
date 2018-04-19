@@ -18,6 +18,7 @@ var Counter = React.createClass({
     },
     shouldComponentUpdate: function(nextProps, newState) {
       console.log('Depending on nextProps/newState we can re-render or not, for example to improve performance');
+      return true;
     },
     componentWillUpdate: function() {
 
